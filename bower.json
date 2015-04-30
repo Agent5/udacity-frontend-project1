@@ -1,0 +1,21 @@
+{
+  "name": "udacity-frontend-project1",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Agent5/udacity-frontend-project1",
+  "authors": [
+    "Eddie Naff <eddienaff@gmail.com>"
+  ],
+  "description": "Portfolio Website (Udacity Project 1)",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
