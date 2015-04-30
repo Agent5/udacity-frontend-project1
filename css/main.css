@@ -16,6 +16,11 @@ h1 {
   }
 }
 
+@media screen and (max-width: 550px) {
+  h1 {
+    margin-top: .1em;
+  }
+}
 .page-header {
   border-bottom: 2px solid #BCBBBB;
 }
@@ -23,4 +28,23 @@ h1 {
 .col-md-12 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.col-xs-10 {
+  padding-left: 0;
+}
+
+.col-xs-2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.logo {
+  min-width:50px;
+  margin-right: 0;
+  margin-left: 1.35em;
+}
+
+.no-btm-space {
+  margin: 0;
 }
