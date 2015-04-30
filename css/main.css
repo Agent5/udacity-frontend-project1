@@ -19,3 +19,8 @@ h1 {
 .page-header {
   border-bottom: 2px solid #BCBBBB;
 }
+
+.col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
