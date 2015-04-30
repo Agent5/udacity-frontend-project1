@@ -1,5 +1,21 @@
-.match-h1-margin {
-  margin-top: 40;
-  margin-bottom: 20;
-  padding-top: 40;
+body {
+  color: #747704;
+}
+
+h2 {
+  color: #BCBBBB;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 770px) {
+  .container {
+    width: 770px;
+  }
+}
+
+.page-header {
+  border-bottom: 2px solid #BCBBBB;
 }

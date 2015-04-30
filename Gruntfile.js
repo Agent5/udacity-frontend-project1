@@ -80,7 +80,7 @@ module.exports = function(grunt) {
                 options: {
                     livereload: LIVERELOAD_PORT
                 },
-                files: ['*.js', 'index.html', 'css/*.css', '*.{gif,jpg,png}']
+                files: ['*.js', 'index.html', './css/*.css', '*.{gif,jpg,png}']
             },
             // scripts: {
             //   files: ['js/*.js', 'css/*.css', 'index.html'],
