@@ -28,29 +28,29 @@
       <div class="col-xs-10 text-right vcenter">
         <h1 class="text-uppercase">Eddie Naff</h1>
         <p class="no-btm-space">
-          <small class="text-uppercase">Front-end Ninja</small>
+          <small class="text-uppercase">Front-end Web Developer</small>
         </p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
-        <img class="img-resonsive" src="images/center-image-394.jpg">
+        <div class="delayed-image-load" data-src="images/center-image-{width}.jpg" data-alt="some craaaazy fakey alterantive text"></div>
       </div>
     </div>
     <h2>Featured Work</h2>
     <div class="row">
-      <div class="col-md-4 text-center">
-        <img src="images/appify-225.jpg">
+      <div class="col-md-4 col-xs-6 text-center">
+        <div class="featured-image-load" data-src="images/appify-{width}.jpg" data-alt="some craaaazy fakey alterantive text"></div>
         <h3 class="text-uppercase">APPIFY</h3><br>
         https://github.com/udacity/Appify/
       </div>
-      <div class="col-md-4 text-center">
-        <img src="images/sunflower-225.jpg">
+      <div class="col-md-4 col-xs-6 text-center">
+        <div class="featured-image-load" data-src="images/sunflower-{width}.jpg" data-alt="some craaaazy fakey alterantive text"></div>
         <h3 class="text-uppercase">SUNFLOWER</h3><br>
         https://github.com/udacity/Appify/
       </div>
-      <div class="col-md-4 text-center">
-        <img src="images/bokeh-225.jpg">
+      <div class="col-md-4 col-xs-6 text-center">
+        <div class="featured-image-load" data-src="images/bokeh-{width}.jpg" data-alt="some craaaazy fakey alterantive text"></div>
         <h3 class="text-uppercase">BOKEH</h3><br>
         https://github.com/udacity/Appify/
       </div>
@@ -60,6 +60,12 @@
   <script src="//localhost:35729/livereload.js"></script>
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  
+  <script src="bower_components/imager.js/Imager.js"></script>
+  <script>
+      var centerPlaceholder = new Imager('.delayed-image-load', { availableWidths: [485, 555, 770] });
+      var featuredPlaceholder = new Imager('.featured-image-load', { availableWidths: [225, 485] });
+  </script>
 </body>
 
 </html>

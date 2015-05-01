@@ -20,6 +20,8 @@
   ],
   "dependencies": {
     "jquery": "~2.1.4",
-    "bootstrap": "~3.3.4"
+    "bootstrap": "~3.3.4",
+    "picturefill": "~2.3.1",
+    "imager.js": "~0.5.0"
   }
 }

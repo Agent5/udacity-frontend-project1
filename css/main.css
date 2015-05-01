@@ -10,6 +10,10 @@ h1 {
   margin-bottom: 0;
 }
 
+img {
+  width: 100%;
+}
+
 @media screen and (min-width: 770px) {
   .container {
     width: 770px;
@@ -21,8 +25,10 @@ h1 {
     margin-top: .1em;
   }
 }
+
 .page-header {
   border-bottom: 2px solid #BCBBBB;
+  margin-top: 1em;
 }
 
 .col-md-12 {
@@ -47,4 +53,63 @@ h1 {
 
 .no-btm-space {
   margin: 0;
+}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
 }
