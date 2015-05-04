@@ -55,6 +55,16 @@ img {
   margin: 0;
 }
 
+.vbottom {
+  position: absolute;
+  bottom: .5em;
+  right: 0;
+}
+
+.row {
+  position: relative;
+}
+
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
