@@ -1,5 +1,7 @@
 body {
-  color: #747704;
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
 }
 
 h2 {
@@ -12,6 +14,7 @@ h1 {
 
 img {
   width: 100%;
+  margin: auto;
 }
 
 @media screen and (min-width: 770px) {
@@ -29,6 +32,7 @@ img {
 .page-header {
   border-bottom: 2px solid #BCBBBB;
   margin-top: 1em;
+  padding-bottom: 0;
 }
 
 .col-md-12 {
@@ -46,23 +50,46 @@ img {
 }
 
 .logo {
-  min-width:50px;
+  width:100%;
+  /*max-width: 95px;*/
+  max-height: 120px;
   margin-right: 0;
   margin-left: 1.35em;
 }
 
-.no-btm-space {
-  margin: 0;
-}
-
 .vbottom {
-  position: absolute;
-  bottom: .5em;
-  right: 0;
+  display: table-cell;
+  vertical-align: bottom;
 }
 
-.row {
-  position: relative;
+.text-muted {
+  color: #BCBBBB;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.title-logo {
+    margin-top: 20px;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h2, h3 {
+  font-weight: 800;
 }
 
 /*==================================================
@@ -77,24 +104,55 @@ img {
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (max-width : 519px) {
+
+  .title-super {
+      font-size: 8vw;
+  }
+
+  .title-minor {
+      font-size: 3.6vw;
+  }
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 520px) and (max-width : 991px) {
+
+  .title-super {
+      font-size: 5.7vw;
+  }
+
+  .title-minor {
+      font-size: 2.2vw;
+  }
 
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
 
+  .title-super {
+      font-size: 4.5vw;
+  }
+
+  .title-minor {
+      font-size: 1.8vw;
+  }
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+/*@media only screen and (min-width : 1200px) {
 
-}
+  .title-super {
+      font-size: 60px;
+  }
+
+  .title-logo {
+      margin-top: 20px;
+  }
+
+}*/
 
 
 /*==========  Non-Mobile First Method  ==========*/
