@@ -23,7 +23,7 @@ module.exports = function(grunt) {
                 options: {
                     engine: 'im',
                     sizes: [{
-                        width: 770,
+                        width: 740,
                         quality: 50
                     }, {
                         width:  555,
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
             dev: {
                 files: [{
                     expand: true,
-                    src: 'images_src/fixed/*.{gif,jpg,png}',
+                    src: 'images_src/fixed/*.{gif,jpg,png,svg}',
                     dest: 'images/',
                     flatten: true
                 }]
