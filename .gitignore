@@ -31,4 +31,4 @@ Thumbs.db
 ##############
 Gruntfile.js
 node_modules
-images_src
+images_src/mockup 
